@@ -1,7 +1,7 @@
-# Workshop-2---Algorand-Blockchain-
+# Workshop-2 Algorand-Blockchain-
 Bienvenue pour ce deuxième workshop ;) 
 
-🧵 Pour cette partie du workshop, nous allons nous concentrer sur une blockchain en particulier : Algorand. Voyons comment configurer notre environnement pour ce workshop, et nous commencerons à déployer des smart contracts sur cette blockchain 
+🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand. Voyons comment configurer notre environnement pour ce workshop, et nous commencerons à déployer des smart contracts sur cette blockchain 
 
 
 
@@ -13,44 +13,37 @@ Bienvenue pour ce deuxième workshop ;)
 
 <details>
   <summary><h1>Installation des logiciels principaux</h1></summary>
-  
-  - Visual Studio Code
-  
-  Comme pour un peintre, il faut sa toile. La developeuse à besoin de son environnement de programmation pour coder.  Il en existe plein sur le marché, Sublim text, Vim ect …  
-Mais Visual Studio Code à l’avantage de relier plusieurs application, tel que Github et d’être assez ergonomique. 
-  https://visualstudio.microsoft.com/fr/downloads/
-  
-  - Installation de node js 
-  
-  NPM (Node Package Manager) est un gestionnaire de paquets permettant l’installation facile des modules (bibliothèques de code) qui peuvent être utilisés dans votre projet  
-  [Node.js](https://nodejs.org/en/)
-  ```bash
-  npm -v 
-  npm install <library-name> 
-  npm run build 
-  ```
-  
-  - Installation de yarn ( similaire à npm, c'est un gestionnaire de paquet, permettant l'installation des bibliothèques et des librairies).
-  ```bash
-  npm install yarn
-  ```
-  
-  - Le terminal: déjà installer sur VS Code. Voici les commandes prinipales sur le terminal. 
-  
-  **`ls`**: affiche la liste des fichiers et des répertoires dans le répertoire courant
-  
-  **`cd`**: change de répertoire
-  
-  **`mkdir`**: crée un nouveau répertoire
-  
-  **`touch`**: crée un nouveau fichier vide
-  
-  **`rm`  :**  supprime un répertoire
-  
-  **`rm -r <nom du fichier>` :** supprime un fichier 
-  
-  **`echo`**: affiche du texte à l'écran
-  
+  Installation de brew
+```
+cd /opt
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+export PATH=/opt/homebrew/bin:$PATH
+export PATH=/opt/homebrew/sbin:$PATH
+```
+
+  Installation de python 3
+`brew install python3`
+
+## Install nodejs
+`brew install node`
+
+## Install sandbox
+`git clone https://github.com/algorand/sandbox.git`
+
+## Changes in configuration for running sandbox within a propject folder
+```
+volumes:
+- type: bind
+  source: ../
+  target: /data
+```
+
+## Intialising sandbox
+`./sandbox up -v`
+`./sandbox enter algod`
+
+
+
 </details>
   
   

@@ -63,7 +63,7 @@ Changement des configuration pour tourner le code sandbox dans le project folder
 volumes:
 - type: bind
   source: ../
-  target: /data
+  target: /data 
 ```
 
   Initialisation de sandbox

@@ -12,12 +12,13 @@ Bienvenue pour ce deuxième workshop ;)
   <summary><h1>Installation des logiciels principaux</h1></summary>
   
   - Installation de brew (pour mac / linux) 
-`
+  
+```
 cd /opt
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
-`
+```
     
     - Installation de WSL (pour windows)
   

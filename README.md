@@ -42,11 +42,11 @@ Cliquez sur "OK" et redémarrez votre ordinateur
   
   - Installation de python 3 
   
-  👉🏽 Pour Mac et Linux 
+Pour Mac et Linux 
   
 `brew install python3`
 
-  👉🏽 Pour Windows ( WSL ) 
+Pour Windows ( WSL ) 
   
 `sudo apt-get update
 sudo apt-get install python3`

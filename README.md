@@ -1,4 +1,4 @@
-# Workshop-2 Algorand-Blockchain-
+# Workshop2 Algorand
 Bienvenue pour ce deuxième workshop ;) 
 
 🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand. Voyons comment configurer notre environnement pour ce workshop, et nous commencerons à déployer des smart contracts sur cette blockchain 

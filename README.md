@@ -26,10 +26,15 @@ export PATH=/opt/homebrew/sbin:$PATH
 Pour installer WSL sur Windows, vous devez avoir la version 1607 ou ultérieure de Windows 10 et suivre ces étapes:
 
 Ouvrez l'application Paramètres en appuyant sur la touche Windows + I
+
 Cliquez sur "Apps"
+
 Cliquez sur "Programmes et fonctionnalités"
+
 Cliquez sur "Activer ou désactiver les fonctionnalités Windows"
+
 Cochez la case "Windows Subsystem for Linux"
+
 Cliquez sur "OK" et redémarrez votre ordinateur
 
   - Installation de Docker ( permet de faire tourner des contenaires/programme dessus) 

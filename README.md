@@ -38,9 +38,7 @@ Cochez la case "Windows Subsystem for Linux"
 
 Cliquez sur "OK" et redémarrez votre ordinateur
 
-  - Installation de Docker ( permet de faire tourner des contenaires/programme dessus) 
-  
-  https://docs.docker.com/compose/install/
+  - Installation de Docker : https://docs.docker.com/compose/install/
   
   - Installation de python 3 
   

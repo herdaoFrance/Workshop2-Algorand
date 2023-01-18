@@ -1,8 +1,10 @@
 # Workshop2 Algorand
 Bienvenue pour ce deuxième workshop ;) 
 
-🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand. 
+🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand.
+
 Nous verrons comment : 
+
 ✔️ Configurer l'environnement de programmation Algorand
 
 ✔️ Créer un compte Algorand 

@@ -37,8 +37,7 @@ export PATH=/opt/homebrew/sbin:$PATH
   
   Il est possible d'utiliser Homebrew (ou "brew" en anglais) sur Windows en utilisant la fonctionnalité Windows Subsystem for Linux (WSL). Cependant, il est important de noter que cela n'est pas pris en charge officiellement et que certains outils et paquets peuvent ne pas fonctionner comme prévu.
 
-Pour installer WSL sur Windows, vous devez avoir la version 1607 ou ultérieure de Windows 10 et suivre ces étapes:
-
+~~~ 
 Ouvrez l'application Paramètres en appuyant sur la touche Windows + I
 
 Cliquez sur "Apps"
@@ -50,6 +49,7 @@ Cliquez sur "Activer ou désactiver les fonctionnalités Windows"
 Cochez la case "Windows Subsystem for Linux"
 
 Cliquez sur "OK" et redémarrez votre ordinateur
+~~~
 
   - Installation de python 3 
   

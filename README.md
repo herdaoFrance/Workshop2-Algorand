@@ -24,7 +24,8 @@ cd /opt
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
 ~~~
-    - Installation de WSL (pour windows)
+
+  - Installation de WSL (pour Windows) 
   
   Il est possible d'utiliser Homebrew (ou "brew" en anglais) sur Windows en utilisant la fonctionnalité Windows Subsystem for Linux (WSL). Cependant, il est important de noter que cela n'est pas pris en charge officiellement et que certains outils et paquets peuvent ne pas fonctionner comme prévu.
 
@@ -47,26 +48,33 @@ Cliquez sur "OK" et redémarrez votre ordinateur
 Pour Mac et Linux : `brew install python3`
 
 Pour Windows ( WSL )
-```sudo apt-get update
-sudo apt-get install python3```
+~~~
+sudo apt-get update
+sudo apt-get install python3
+~~~
 
 ou 
   
-```sudo apt-get install python```
+~~~
+sudo apt-get install python
+~~~
 
 
   - Installation de Docker : `https://docs.docker.com/compose/install/`
   
-  - Installation de sandbox (clône de repo par github Desktop) : `https://github.com/algorand/sandbox.git`
+  - Installation de sandbox (clône de repo par github Desktop) :
+  ~~~
+  https://github.com/algorand/sandbox.git
+  ~~~
 
 ( Ajout de code dans le fichier sandbox/docker-compose sous les ports ) 
 
-```
+~~~
 volumes:
 - type: bind
   source: ../
   target: /data 
-```
+~~~
 
   Initialisation de sandbox
 `./sandbox up -v`

@@ -101,10 +101,10 @@ volumes:
  </details> 
  
  
- <details><summary><h1> Création de notre première transaction </h1></summary>
+ <details><summary><h1>Première transaction</h1></summary>
  
  
- #Création d'un compte Algorand
+# Création d'un compte Algorand
 👉🏽 Dans le fichier sandbox, créez un nouveau fichier, puis collez le bout de code. Il nous permettra de générer des clés privée et public afin de créer notre compte Algorand 
 
 ~~~

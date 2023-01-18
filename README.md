@@ -90,7 +90,28 @@ volumes:
   - AlgoExplorer : `https://algoexplorer.io/`
   
   - SDK installation : `pip3 install py-algorand-sdk` ou `pip install py-algorand-sdk`
-    
+ </details> 
+ 
+ 
+ <details><summary><h1>🛣️ Créons notre première transaction </h1></summary>
+ 
+ 
+ <h1>Création d'un compte Algorand</h1>
+👉🏽 Dans le fichier sandbox, créez un nouveau fichier, puis collez le bout de code. Il nous permettra de générer des clés privée et public afin de créer notre compte Algorand 
+
+~~~
+from algosdk import account, mnemonic
+
+def generate_algorand_keypair():
+    private_key, address = account.generate_account()
+    print("My address: {}".format(address))
+    print("My private key: {}".format(private_key))
+    print("My passphrase: {}".format(mnemonic.from_private_key(private_key)))
+
+generate_algorand_keypair()
+
+~~~
+
     
     
    

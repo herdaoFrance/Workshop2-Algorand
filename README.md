@@ -215,3 +215,4 @@ Remplacer, 'ICI MA CLE PRIVEE' et 'ICI MON ADRESSE', par vos informations pr√©c√
 exemple_de_premiere_transaction('ICI MA CLE PRIVEE', 'ICI MON ADRESSE')
 ~~~
 
+

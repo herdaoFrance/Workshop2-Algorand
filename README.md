@@ -85,9 +85,9 @@ volumes:
   
   <details><summary><h1>L'environnement Algorand </h1></summary>
     
-    - Documentation d'Algorand : https://developer.algorand.org/
+    - Documentation d'Algorand : `https://developer.algorand.org/`
     
-    - AlgoExplorer : https://algoexplorer.io/
+    - AlgoExplorer : `https://algoexplorer.io/`
   
     - SDK installation : `pip3 install py-algorand-sdk` ou `pip install py-algorand-sdk`
     

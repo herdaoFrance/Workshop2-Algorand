@@ -122,7 +122,7 @@ generate_algorand_keypair()
 
 ~~~
 
-Puis sur le terminal, faites appel au fichier nouvellement créer : 
+Puis sur le terminal, faites appel au fichier nouvellement créée. Cela permettra de générer le nouveau compte. Sur un nouveau fichier, ou un pense-bête, copier-coller les données de votre nouveau compte.  : 
 ~~~
 python compte_algorand.py 
 ~~~

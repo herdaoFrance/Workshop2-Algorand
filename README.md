@@ -55,14 +55,12 @@ ou
 ```sudo apt-get install python```
 
 
-  - Installation de Docker : https://docs.docker.com/compose/install/
+  - Installation de Docker : `https://docs.docker.com/compose/install/`
   
-
-
-
   - Installation de sandbox (clône de repo par github Desktop) : `https://github.com/algorand/sandbox.git`
 
 ( Ajout de code dans le fichier sandbox/docker-compose sous les ports ) 
+
 ```
 volumes:
 - type: bind
@@ -77,9 +75,7 @@ volumes:
   </details>
   
   
-  
-  <details>
-  <summary><h1>L'environnement Algorand </h1></summary>
+  <details><summary><h1>L'environnement Algorand </h1></summary>
     
     - Documentation d'Algorand : https://developer.algorand.org/
     

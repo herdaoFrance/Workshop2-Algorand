@@ -12,17 +12,19 @@ Bienvenue pour ce deuxième workshop ;)
 
 
 <details>
-  <summary><h1>Installation des logiciels principaux</h1></summary>
+  <summary>
+  <h1>Installation des logiciels principaux</h1>
+  </summary>
   
   - Installation de brew (pour mac / linux) 
   
-```
+~~~
 cd /opt
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
   
-```
+~~~
     
     - Installation de WSL (pour windows)
   
@@ -49,13 +51,13 @@ Cliquez sur "OK" et redémarrez votre ordinateur
 Pour Mac et Linux : `brew install python3`
 
 Pour Windows ( WSL )
-`sudo apt-get update
-sudo apt-get install python3`
+```sudo apt-get update
+
+sudo apt-get install python3```
 
 ou 
   
-`sudo apt-get install python`
-
+```sudo apt-get install python```
 
 
   - Install sandbox

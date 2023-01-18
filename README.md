@@ -21,7 +21,7 @@ Nous verrons comment :
 
 <details>
   <summary>
-  <h1>Installation des logiciels principaux</h1>
+  <h1>🔧 Installation des logiciels principaux</h1>
   </summary>
   
   - Installation de brew (pour mac / linux) 
@@ -91,7 +91,7 @@ volumes:
   </details>
   
   
-  <details><summary><h1>L'environnement Algorand </h1></summary>
+  <details><summary><h1>🌍 L'environnement Algorand </h1></summary>
   
   - Documentation d'Algorand : `https://developer.algorand.org/`
   
@@ -101,10 +101,11 @@ volumes:
  </details> 
  
  
- <details><summary><h1>Première transaction</h1></summary>
+ <details><summary><h1>💸 Première transaction</h1></summary>
  
  
 # Création d'un compte Algorand
+
 👉🏽 Dans le fichier sandbox, créez un nouveau fichier, puis collez le bout de code. Il nous permettra de générer des clés privée et public afin de créer notre compte Algorand 
 
 ~~~

@@ -8,6 +8,9 @@ Bienvenue pour ce deuxième workshop ;)
 ## Quelques termes techniques à éclairer avant de commencer le workshop 
 📌 Smart contract :  Un smart contract est un contrat automatisé qui utilise la technologie de la blockchain pour s'exécuter de manière autonome. Il permet de gérer des transactions électroniques sans avoir besoin d'intermédiaires.
 
+📌 SDK : Softaware Development Kit - c'est une collection d'outils. Les SDK sont comme des boîtes à outils pour construire des logiciels. 
+
+
 <details>
   <summary><h1>Installation des logiciels principaux</h1></summary>
   
@@ -18,8 +21,8 @@ cd /opt
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
+  
 ```
-    
     
     - Installation de WSL (pour windows)
   
@@ -43,16 +46,14 @@ Cliquez sur "OK" et redémarrez votre ordinateur
   
   - Installation de python 3 
   
-Pour Mac et Linux 
-  
-`brew install python3`
+Pour Mac et Linux : `brew install python3`
 
-Pour Windows ( WSL ) 
-  
+Pour Windows ( WSL )
 `sudo apt-get update
 sudo apt-get install python3`
 
 ou 
+  
 `sudo apt-get install python`
 
 
@@ -71,3 +72,17 @@ volumes:
   Initialisation de sandbox
 `./sandbox up -v`
 `./sandbox enter algod`
+
+  </details>
+  <details>
+  <summary><h1>L'environnement Algorand </h1></summary>
+    
+    - Documentation d'Algorand : https://developer.algorand.org/
+    
+    - AlgoExplorer : https://algoexplorer.io/
+  
+    - SDK installation : `pip3 install py-algorand-sdk` ou `pip install py-algorand-sdk`
+    
+    
+    
+   

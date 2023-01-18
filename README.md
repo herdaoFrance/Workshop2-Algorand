@@ -20,6 +20,7 @@ export PATH=/opt/homebrew/bin:$PATH
 export PATH=/opt/homebrew/sbin:$PATH
 ```
     
+    
     - Installation de WSL (pour windows)
   
   Il est possible d'utiliser Homebrew (ou "brew" en anglais) sur Windows en utilisant la fonctionnalité Windows Subsystem for Linux (WSL). Cependant, il est important de noter que cela n'est pas pris en charge officiellement et que certains outils et paquets peuvent ne pas fonctionner comme prévu.

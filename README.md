@@ -104,9 +104,10 @@ volumes:
  <details><summary><h1>💸 Première transaction</h1></summary>
  
  
-# Création d'un compte Algorand
+### Création d'un compte Algorand
 
-👉🏽 Dans le fichier sandbox, créez un nouveau fichier, puis collez le bout de code. Il nous permettra de générer des clés privée et public afin de créer notre compte Algorand 
+👉🏽 Dans le fichier sandbox, créez un nouveau fichier, nommez le (compte_algorand.py), puis collez le bout de code. Il nous permettra de générer des clés privées et public afin de créer notre compte Algorand. 
+
 
 ~~~
 from algosdk import account, mnemonic
@@ -121,6 +122,10 @@ generate_algorand_keypair()
 
 ~~~
 
+Puis sur le terminal, faites appel au fichier nouvellement créer : 
+~~~
+python compte_algorand.py 
+~~~
     
     
    

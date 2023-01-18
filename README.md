@@ -1,7 +1,13 @@
 # Workshop2 Algorand
 Bienvenue pour ce deuxième workshop ;) 
 
-🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand. Voyons comment configurer notre environnement pour ce workshop, et nous commencerons à déployer des smart contracts sur cette blockchain 
+🧵 Aujourd'hui nous allons nous concentrer sur une blockchain en particulier : Algorand. 
+Nous verrons comment : 
+✔️ Configurer l'environnement de programmation Algorand
+
+✔️ Créer un compte Algorand 
+
+✔️ Effectuer notre première transaction
 
 
 
@@ -93,10 +99,10 @@ volumes:
  </details> 
  
  
- <details><summary><h1>🛣️ Créons notre première transaction </h1></summary>
+ <details><summary><h1> Création de notre première transaction </h1></summary>
  
  
- <h1>Création d'un compte Algorand</h1>
+ #Création d'un compte Algorand
 👉🏽 Dans le fichier sandbox, créez un nouveau fichier, puis collez le bout de code. Il nous permettra de générer des clés privée et public afin de créer notre compte Algorand 
 
 ~~~

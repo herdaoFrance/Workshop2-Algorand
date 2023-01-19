@@ -43,8 +43,9 @@ Nous verrons comment :
   
   
   <details><summary><h1>🌍 L'environnement Algorand </h1></summary>
-   
+  Algorand Sandbox est un outil qui permet aux développeurs et aux chercheurs de créer et de tester facilement des applications basées sur Algorand dans un environnement local. Il crée un réseau Algorand local à nœud unique et fournit une interface de ligne de commande pour interagir avec le réseau. Cela inclut des fonctionnalités telles que la création de nouveaux comptes, l'envoi et la réception d'Algos et l'interrogation du grand livre pour obtenir des informations.
   - Installation de sandbox (clône de repo par github Desktop) :
+  
   Nous pouvons désormais commencer à jouer avec les commandes github : 
   ~~~
   git clone https://github.com/algorand/sandbox.git

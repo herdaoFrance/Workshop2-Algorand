@@ -26,7 +26,12 @@ Nous verrons comment :
   <h1>🔧 Installation des logiciels principaux</h1>
   </summary>
   
-  - Installation de brew (pour mac / linux) 
+  - Installation de Git
+  
+  Pour windows : https://git-scm.com/download/win
+  Vous pouvez retrouver la version de votre système, en tapant dans votre barre de recherche de votre barre de tâche " A propos de votre PC", et vous retrouverez la version de votre système dans "type du système". Cela vous permettra de savoir si vous avez un processeur de 32-bit ou 64-bit. 
+  
+  Pour Mac: `git --version`
   
 ~~~
 cd /opt

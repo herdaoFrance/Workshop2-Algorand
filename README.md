@@ -53,7 +53,7 @@ Cochez la case "Windows Subsystem for Linux"
 Cliquez sur "OK" et redémarrez votre ordinateur
 ~~~
 
-  - Installation de python 3 
+  - Installation de python 3: https://www.python.org/downloads/
   
 Pour Mac et Linux : `brew install python3`
 

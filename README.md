@@ -36,6 +36,7 @@ Pour notre cours d'aujourd'hui, nous allons utiliser le SDK de python afin de d�
   Si git est déjà installé vous trouverez la version, sinon vous trouverez les instructions pour installer le logiciel. 
 
   - Installation de python 3: https://www.python.org/downloads/
+  pour vérifier l'installation de python3 : pip3 --version sur votre terminal
   
   - Installation de Docker : `https://docs.docker.com/compose/install/`
  

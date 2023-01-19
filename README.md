@@ -18,7 +18,7 @@ Nous verrons comment :
 
 📌 SDK : Softaware Development Kit - c'est une collection d'outils. Les SDK sont comme des boîtes à outils pour construire des logiciels. 
 
-📌 TestNet vs Mainnet : Le 
+📌 TestNet vs Mainnet : La principale différence entre le testnet et le mainnet est que le testnet est un réseau de test et de développement, tandis que le mainnet est le réseau en production. Le testnet est un réseau public qui permet aux développeurs de tester leurs applications, contrats intelligents et autres fonctionnalités sans risquer des actifs réels. Les transactions réelles sont traitées sur le mainnet et c'est là que les tokens Algorand sont utilisés. 
 
 
 <details>
@@ -32,58 +32,25 @@ Nous verrons comment :
   Vous pouvez retrouver la version de votre système, en tapant dans votre barre de recherche de votre barre de tâche " A propos de votre PC", et vous retrouverez la version de votre système dans "type du système". Cela vous permettra de savoir si vous avez un processeur de 32-bit ou 64-bit. 
   
   Pour Mac: `git --version`
-  
-~~~
-cd /opt
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-export PATH=/opt/homebrew/bin:$PATH
-export PATH=/opt/homebrew/sbin:$PATH
-~~~
-
-  - Installation de WSL (pour Windows) 
-  
-  Il est possible d'utiliser Homebrew (ou "brew" en anglais) sur Windows en utilisant la fonctionnalité Windows Subsystem for Linux (WSL). Cependant, il est important de noter que cela n'est pas pris en charge officiellement et que certains outils et paquets peuvent ne pas fonctionner comme prévu.
-
-~~~ 
-Ouvrez l'application Paramètres en appuyant sur la touche Windows + I
-
-Cliquez sur "Apps"
-
-Cliquez sur "Programmes et fonctionnalités"
-
-Cliquez sur "Activer ou désactiver les fonctionnalités Windows"
-
-Cochez la case "Windows Subsystem for Linux"
-
-Cliquez sur "OK" et redémarrez votre ordinateur
-~~~
+  Si git est déjà installé vous trouverez la version, sinon vous trouverez les instructions pour installer le logiciel. 
 
   - Installation de python 3: https://www.python.org/downloads/
   
-Pour Mac et Linux : `brew install python3`
-
-Pour Windows ( WSL )
-~~~
-sudo apt-get update
-sudo apt-get install python3
-~~~
-
-ou 
-  
-~~~
-sudo apt-get install python
-~~~
-
-
   - Installation de Docker : `https://docs.docker.com/compose/install/`
+ 
+
+  </details>
   
+  
+  <details><summary><h1>🌍 L'environnement Algorand </h1></summary>
+   
   - Installation de sandbox (clône de repo par github Desktop) :
+  Nous pouvons désormais commencer à jouer avec les commandes github : 
   ~~~
-  https://github.com/algorand/sandbox.git
+  git clone https://github.com/algorand/sandbox.git
   ~~~
 
 ( Ajout de code dans le fichier sandbox/docker-compose sous les ports ) 
-
 ~~~
 volumes:
 - type: bind
@@ -91,14 +58,11 @@ volumes:
   target: /data 
 ~~~
 
-  Initialisation de sandbox
-`./sandbox up -v`
-`./sandbox enter algod`
-
-  </details>
-  
-  
-  <details><summary><h1>🌍 L'environnement Algorand </h1></summary>
+  - Initialisation de sandbox ( au sein du terminal git) 
+~~~
+cd sandbox
+./sandbox up testnet
+~~~
   
   - Documentation d'Algorand : `https://developer.algorand.org/`
   
@@ -108,8 +72,6 @@ volumes:
   
   - Dispenser Algorand (permet de récupérer des jetons/ faucet) : `https://dispenser.testnet.aws.algodev.network/`
  </details> 
- 
-
  
  
  <details><summary><h1>💸 Première transaction</h1></summary>

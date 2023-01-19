@@ -16,7 +16,8 @@ Nous verrons comment :
 ## Quelques termes techniques à éclairer avant de commencer le workshop 
 📌 Smart contract :  Un smart contract est un contrat automatisé qui utilise la technologie de la blockchain pour s'exécuter de manière autonome. Il permet de gérer des transactions électroniques sans avoir besoin d'intermédiaires.
 
-📌 SDK : Softaware Development Kit - c'est une collection d'outils. Les SDK sont comme des boîtes à outils pour construire des logiciels. 
+📌 SDK : Software Development Kit - c'est une collection d'outils. Les SDK sont comme des boîtes à outils pour construire des logiciels. 
+Pour notre cours d'aujourd'hui, nous allons utiliser le SDK de python afin de déployer notre dApp sur Algorand. Cette boîte à outil fournit par Python, nous permet d'implémenter des fonctions et des librairies à notre compte. 
 
 📌 TestNet vs Mainnet : La principale différence entre le testnet et le mainnet est que le testnet est un réseau de test et de développement, tandis que le mainnet est le réseau en production. Le testnet est un réseau public qui permet aux développeurs de tester leurs applications, contrats intelligents et autres fonctionnalités sans risquer des actifs réels. Les transactions réelles sont traitées sur le mainnet et c'est là que les tokens Algorand sont utilisés. 
 

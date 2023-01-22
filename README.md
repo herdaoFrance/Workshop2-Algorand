@@ -183,8 +183,7 @@ Remplacer, 'ICI MA CLE PRIVEE' et 'ICI MON ADRESSE', par vos informations pr√©c√
 
 ~~~
 exemple_de_premiere_transaction('ICI MA CLE PRIVEE', 'ICI MON ADRESSE')
-![image](https://user-images.githubusercontent.com/122298552/213937543-b110dd4b-bd8c-4dce-bc01-591ab91e53d6.png)
-
+![example image](resultat_premiere_transaction.jpg)
 
 ~~~
 

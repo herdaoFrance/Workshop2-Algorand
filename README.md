@@ -105,7 +105,7 @@ python3 compte_algorand.py
 
 La spécialité de la blockchain est que chaque transaction nécessite provoque des gas fees. Notre wallet sera celui qui valide les transactions, pour cela, nous devons avoir des faucets ( qui est en vérité de la fausse monnaie ), nous permettant d'intéragir avec la blockchain. 
 
-👉 Allons sur le dispenser algorand, et avec l'adresse précédemment générée, nous pouvons nous procurer des faucets Algorand. Vous pouvez vérifier que la transaction c'est bien effectué dans l'explorateur de bloc. 
+👉🏽 Allons sur le dispenser algorand, et avec l'adresse précédemment générée, nous pouvons nous procurer des faucets Algorand. Vous pouvez vérifier que la transaction c'est bien effectué dans l'explorateur de bloc. 
     
 ### Création de la première transaction 
 
